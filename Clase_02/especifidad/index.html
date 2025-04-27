@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prueba.css" type="text/css">
+</head>
+
+<body>
+    <h1>
+        Titulo de prueba especifidad css
+    </h1>
+    <p> Parrado1</p>
+    <p> Parrado2</p>
+    <p> Parrado3</p>
+    <p> Parrado4</p>
+    <p2>En este caso podemos ver que el navegador tomara la regla que este mas abajo del documento css</p2>
+</body>
+<p>Importante: Cuando CSS encuentra reglas contradictorias, apela al principio de especificidad para decidir cuál
+    prevalecerá. Es decir, decide qué es más relevante para ese elemento y, en consecuencia, aplica una regla o la otra.
+</p>
+<p>¿Cómo Se Determina La Especificidad?
+    Cuando creamos un selector, CSS le asigna un valor a su especificidad que varía según el tipo:
+
+    El selector de elemento (p {...}): Cuando seleccionamos elementos HTML genéricos tiene una especificidad de 1 y es
+    el menos específico.
+    El selector de class (.ejemplo {...}): Es menos genérico que el selector de elemento y, por lo tanto, tiene una
+    especificidad de 10.
+    El selector de id ( #ejemplo {...}): Al ser el menos genérico (o el más específico) tiene una especificidad de 100.
+</p>
+
+</html>
