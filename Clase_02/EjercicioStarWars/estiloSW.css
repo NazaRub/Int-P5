@@ -1,0 +1,67 @@
+.imperio {
+    background-color: red;
+}
+.rebeldes {
+    background-color: blue;
+}
+#vader {
+    font-size: 200%;
+}
+#luke {
+    font-style: italic;
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+}
+.soldado{
+    text-align: center;
+    letter-spacing: 2em;
+    border: 2px dashed rgb(255, 255, 255); /* blanco, por ejemplo */
+    padding: 10px;
+    margin: 10px auto;;
+}
+.naves {
+    text-transform: uppercase;
+}
+.apoyo {
+    text-align: center;
+}
+body {
+    text-align: center;
+    background-color: black; /* mejor contraste si el fondo de estrellas no se carga */
+    font-family: 'Arial', sans-serif; /* una fuente más limpia */
+    color: white; /* color general de texto */
+    background-image: url(space-1164579_1280.webp);
+}
+img {
+display: block;
+margin: 0 auto;
+max-width: 90%; /* no más del 90% de la pantalla */
+height: 200px;
+width: auto;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none; /* sacar las viñetas */
+    padding: 0;
+}
+li {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, red, blue);
+    margin: 110px 0;
+}
