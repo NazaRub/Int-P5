@@ -1,0 +1,57 @@
+body {
+    background-color: #3D5A80;
+    font-family: Verdana,  sans-serif;
+    color:#f7ede2;
+}
+h1 {
+    color: rgb(238, 108, 77);
+}
+h2 {
+    color: #E0FBFC;
+}
+li {
+    color: #E5E9EC;
+}
+#bordeado {
+    border: 3px solid white;
+}
+.aloha {
+    color: white;
+    background-color: #293241 ;
+}
+input {
+    border: 2px dashed rgb(238, 108, 77);
+}
+div p {
+font-size: 150%;
+color: #000000;
+}
+input[type="text"] {
+    background-color: #00ddff;
+}
+a:active {
+    color: white;
+}
+a{
+    color: rgb(238, 108, 77); /* Color por defecto de los enlaces */
+    text-decoration: none; /* Opcional: Quitar subrayado de los enlaces */
+}
+div:nth-of-type(3) p {
+    background-color: blue;
+}
+div:nth-of-type(3) p:nth-of-type(2) {
+    border: 4px solid white;
+} 
+div:nth-of-type(3) span {
+    background-color: white;
+}
+input[type="checkbox"]:checked {
+    margin-left: 60px;
+}
+label {
+    text-transform: uppercase;
+}
+#ultimo::first-letter {
+     font-size: 300%;
+     background-color: orange;
+}

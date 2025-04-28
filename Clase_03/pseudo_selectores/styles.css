@@ -1,0 +1,9 @@
+ h1:hover {
+    background-color: yellow;
+ }
+ button:active {
+    color: aqua;
+ }
+ input:focus {
+border: 12px solid rgb(255, 0, 0);
+ }
