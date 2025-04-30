@@ -1,0 +1,23 @@
+#container {
+    width:80% ;
+    margin: 0 auto ;
+ float: left;
+}
+#navbar {
+    background-color: #118AB2;
+}
+#contenido {
+    width: 70%;
+    background-color: #06d6a0;
+    float: left;
+}
+#sidebar{
+    width: 30%;
+    background-color: #ef476f;
+    float: left;
+}
+.copias{
+    width: 30%;
+    background-color: #ef476f;
+    float: left;
+}

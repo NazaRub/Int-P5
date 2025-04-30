@@ -1,0 +1,22 @@
+#col1 {
+    float: left;
+    background-color: blue;
+    width: 70%;
+}
+#col2 {
+    float: left;
+    background-color: brown;
+    width: 30%;
+}
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+#navbar {
+    background-color: grey;
+    margin: 20px 20px;
+    height: 120%;
+}
+a {
+   margin-left: 10px; 
+}

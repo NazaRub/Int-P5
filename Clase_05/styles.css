@@ -1,0 +1,10 @@
+iv {
+    border: 2px solid red;
+    border-left: 5px solid blue;
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+}
+#sizing {
+   box-sizing: border-box;
+}
