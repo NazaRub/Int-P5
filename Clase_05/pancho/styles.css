@@ -1,0 +1,77 @@
+div {
+    margin: 0px auto;
+    background-color: brown;
+    height: 90px;
+    width: 700px;
+    border-radius: 40px ;
+}
+.panes {
+    position: relative;
+    margin-top: 0px auto;
+    background-color: rgb(191, 130, 56);
+    width: 550px;
+    height: 70px;
+}
+#arriba{
+    border-radius: 40px 40px 10px 10px;
+    
+}
+#abajo {
+    border-radius: 10px 10px 40px 40px;
+}
+
+#arriba::after {
+    content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 10px;
+background-color: #7f5627;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+#abajo::before {
+    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #7f5627;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  z-index: 2;
+
+}
+#mayonesa {
+    position: absolute;
+  top: 30px; /* ajustá según dónde querés la línea */
+  left: 20px;
+  width: 660px;
+  height: 10px;
+  background-color: #fffbe8; /* color crema claro */
+  border-radius: 10px;
+}
+#salchicha {
+    background-color: brown;
+    height: 90px;
+    width: 700px;
+    border-radius: 40px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.onda-mayonesa {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: flex;
+    gap: 8px;
+  }
+  .gota {
+    width: 20px;
+    height: 20px;
+    background-color: #fffbe8;
+    border-radius: 50%;
+  }
